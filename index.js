@@ -3,7 +3,6 @@
 var express = require('express')
 var http = require('http')
 var bodyParser = require('body-parser')
-var JSON = require('circular-json')
 
 var app = express()
 
