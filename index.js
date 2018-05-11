@@ -16,6 +16,6 @@ app.get('/', function (req, res) {
   res.json({ userAgent: req.headers['user-agent'] })
 })
 
-server.listen(3000, function () {
+server.listen(process.env.PORT || 3000, function () {
   console.log(`Listening on port 3000`)
 })
