@@ -12,6 +12,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "ua-parser-js": "^0.7.18",
+    "useragent": "^2.3.0"
   }
 }
